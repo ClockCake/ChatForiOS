@@ -16,6 +16,7 @@
 		08435D5B29A5EB32007727F2 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08435D5A29A5EB32007727F2 /* ResponseModel.swift */; };
 		085D071129D17925007F8852 /* OpenAIStreamingCompletions in Frameworks */ = {isa = PBXBuildFile; productRef = 085D071029D17925007F8852 /* OpenAIStreamingCompletions */; };
 		086D4E3029CD4B3E00DDAA4D /* MarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 086D4E2F29CD4B3E00DDAA4D /* MarkdownView */; };
+		086E75A82A36B75C0037D833 /* openai-streaming-completions-swift in Resources */ = {isa = PBXBuildFile; fileRef = 086E75A72A36B75C0037D833 /* openai-streaming-completions-swift */; };
 		088CBBE229A9DE090099DB30 /* EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CBBE129A9DE090099DB30 /* EmptyDataView.swift */; };
 		088CBBE529A9E0410099DB30 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CBBE429A9E0410099DB30 /* RequestCell.swift */; };
 		088CBBE729A9E3100099DB30 /* ResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CBBE629A9E3100099DB30 /* ResponseCell.swift */; };
@@ -53,13 +54,12 @@
 		08435D4729A49B82007727F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08435D4929A49B82007727F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08435D5A29A5EB32007727F2 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
-		086D4E3429CD7DB400DDAA4D /* MarkdownView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MarkdownView; path = ../../MarkdownView; sourceTree = "<group>"; };
+		086E75A72A36B75C0037D833 /* openai-streaming-completions-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "openai-streaming-completions-swift"; path = "../openai-streaming-completions-swift"; sourceTree = "<group>"; };
 		088CBBE129A9DE090099DB30 /* EmptyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyDataView.swift; sourceTree = "<group>"; };
 		088CBBE429A9E0410099DB30 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 		088CBBE629A9E3100099DB30 /* ResponseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCell.swift; sourceTree = "<group>"; };
 		088CBC0B29AA0BF90099DB30 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		08BE6A7D29D557470006DF63 /* OpenAi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenAi.entitlements; sourceTree = "<group>"; };
-		08BE6A7E29D690910006DF63 /* openai-streaming-completions-swift */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "openai-streaming-completions-swift"; path = "../../openai-streaming-completions-swift"; sourceTree = "<group>"; };
 		08C73A3C29DAAF2D005B158D /* PlaceholderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 		08CF9E7629A8A44400360320 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		08CF9E7829A8AA1C00360320 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		08435D2F29A49B82007727F2 = {
 			isa = PBXGroup;
 			children = (
-				086D4E3329CD7DB400DDAA4D /* Packages */,
+				086E75A72A36B75C0037D833 /* openai-streaming-completions-swift */,
 				08435D3A29A49B82007727F2 /* OpenAi */,
 				08435D3929A49B82007727F2 /* Products */,
 				08F39B9429ADB6B7005C6A23 /* Frameworks */,
@@ -121,15 +121,6 @@
 				08435D4929A49B82007727F2 /* Info.plist */,
 			);
 			path = OpenAi;
-			sourceTree = "<group>";
-		};
-		086D4E3329CD7DB400DDAA4D /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				086D4E3429CD7DB400DDAA4D /* MarkdownView */,
-				08BE6A7E29D690910006DF63 /* openai-streaming-completions-swift */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 		088CBBE329A9E0280099DB30 /* View */ = {
@@ -235,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08435D4829A49B82007727F2 /* LaunchScreen.storyboard in Resources */,
+				086E75A82A36B75C0037D833 /* openai-streaming-completions-swift in Resources */,
 				08435D4529A49B82007727F2 /* Assets.xcassets in Resources */,
 				08435D4329A49B82007727F2 /* Main.storyboard in Resources */,
 			);

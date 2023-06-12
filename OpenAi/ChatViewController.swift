@@ -313,7 +313,7 @@ extension ChatViewController{
         UserDefaultsManager.shared.save(array: [data])
         self.reloadNewData()
         self.senderBtn.isUserInteractionEnabled = false
-        let api = OpenAIAPI(apiKey: "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")
+        let api = OpenAIAPI(apiKey: String.generateRandomString())
         let questions = UserDefaultsManager().load()?.map({$0.question }) ?? []
         let message = OpenAIAPI.Message(role: .system, content: "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully. Respond using markdown.")
         messages.append(message)
